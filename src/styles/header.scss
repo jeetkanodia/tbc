@@ -1,3 +1,33 @@
-.menu-icon {
-  display: none;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  height: 175px;
+  width: 350px;
+}
+.navbar-links {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+.navbar-link {
+  margin-right: 10px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+div.navbar-link:hover {
+  border-top: 4px solid blue;
+  margin-top: -4px;
+  color: blue;
+}
+a.navbar-link:hover {
+  color: blue;
 }
